@@ -1,60 +1,123 @@
 {
-    "rules": {
-        "class-name": true,
-        "comment-format": [
-            true,
-            "check-space"
-        ],
-        "indent": [
-            true,
-            "spaces"
-        ],
-        "one-line": [
-            true,
-            "check-open-brace",
-            "check-whitespace"
-        ],
-        "no-var-keyword": true,
-        "quotemark": [
-            true,
-            "double",
-            "avoid-escape"
-        ],
-        "semicolon": [
-            true,
-            "always",
-            "ignore-bound-class-methods"
-        ],
-        "whitespace": [
-            true,
-            "check-branch",
-            "check-decl",
-            "check-operator",
-            "check-module",
-            "check-separator",
-            "check-type"
-        ],
-        "typedef-whitespace": [
-            true,
-            {
-                "call-signature": "nospace",
-                "index-signature": "nospace",
-                "parameter": "nospace",
-                "property-declaration": "nospace",
-                "variable-declaration": "nospace"
-            },
-            {
-                "call-signature": "onespace",
-                "index-signature": "onespace",
-                "parameter": "onespace",
-                "property-declaration": "onespace",
-                "variable-declaration": "onespace"
-            }
-        ],
-        "no-internal-module": true,
-        "no-trailing-whitespace": true,
-        "no-null-keyword": true,
-        "prefer-const": true,
-        "jsdoc-format": true
-    }
+  "rules": {
+    "one-line": [
+      true,
+      "check-open-brace",
+      "check-whitespace"
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape"
+    ],
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-module",
+      "check-separator",
+      "check-type"
+    ],
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      },
+      {
+        "call-signature": "onespace",
+        "index-signature": "onespace",
+        "parameter": "onespace",
+        "property-declaration": "onespace",
+        "variable-declaration": "onespace"
+      }
+    ],
+    "no-internal-module": true,
+    "no-trailing-whitespace": true,
+    "no-null-keyword": true,
+    "prefer-const": true,
+    "jsdoc-format": true,
+    "no-any": true,
+    "no-empty-interface": true,
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "public-static-field",
+          "public-instance-field",
+          "public-constructor",
+          "private-static-field",
+          "private-instance-field",
+          "private-constructor",
+          "public-instance-method",
+          "protected-instance-method",
+          "private-instance-method"
+        ]
+      }
+    ],
+    "no-parameter-reassignment": true,
+    "no-var-requires": true,
+    "prefer-for-of": true,
+    "promise-function-async": true,
+    "typedef": true,
+    "forin": true,
+    "no-console": true,
+    "no-construct": true,
+    "no-duplicate-super": true,
+    "no-duplicate-variable": true,
+    "no-duplicate-switch-case": true,
+    "no-empty": true,
+    "no-dynamic-delete": true,
+    "no-eval": true,
+    "no-implicit-dependencies": true,
+    "no-invalid-this": true,
+    "no-invalid-template-strings": true,
+    "no-return-await": true,
+    "no-shadowed-variable": true,
+    "no-unused-expression": true,
+    "no-unused-variable": true,
+    "no-use-before-declare": true,
+    "no-var-keyword": true,
+    "prefer-object-spread": true,
+    "prefer-conditional-expression": true,
+    "radix": true,
+    "switch-default": true,
+    "triple-equals": true,
+    "use-isnan": true,
+    "linebreak-style": [
+      true,
+      "LF"
+    ],
+    "indent": [
+      true,
+      "tabs"
+    ],
+    "max-line-length": [
+      true,
+      120
+    ],
+    "no-default-export": true,
+    "no-duplicate-imports": true,
+    "no-require-imports": true,
+    "align": true,
+    "arrow-return-shorthand": [
+      true,
+      "multiline"
+    ],
+    "class-name": true,
+    "one-variable-per-declaration": true,
+    "prefer-template": true,
+    "switch-final-break": [
+      true,
+      "always"
+    ]
+  }
 }
