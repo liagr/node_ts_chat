@@ -1,7 +1,7 @@
 import * as http from 'http'
 import * as debug from 'debug'
 
-import { App } from './Server'
+import { Api } from './http_server'
 
 debug('ts-express:server')
 
@@ -15,7 +15,7 @@ const onListening = (): void => {
 	console.log(`Application listening on localhost:${PORT}`)
 }
 
-const server = http.createServer(App)
+const server = http.createServer(Api)
 
 server.listen(PORT)
 server.on('error', onError)

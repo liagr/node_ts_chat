@@ -9,6 +9,7 @@
   "author": "liagr",
   "scripts": {
     "start": "node dist/index.js",
+		"watch": "gulp watch",
     "build": "gulp scripts",
     "tslint": "tslint -c tslint.json -p tsconfig.json -e node_modules/**/*.ts"
   },

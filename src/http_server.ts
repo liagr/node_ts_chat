@@ -31,6 +31,6 @@ class Server {
 
 }
 
-const App = new Server().express
+const Api = new Server().express
 
-export { App }
+export { Api }
