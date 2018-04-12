@@ -2,7 +2,6 @@ import * as http from 'http';
 import * as socketIo from 'socket.io'
 
 class SocketServer {
-
 	public readonly io: SocketIO.Server
 
 	public constructor(server: http.Server) {

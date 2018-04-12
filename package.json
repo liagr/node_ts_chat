@@ -1,14 +1,14 @@
 {
-  "name": "express-typescript-starter",
+  "name": "node-ts-app",
   "version": "0.1.0",
-  "description": "Simple node typescript chat",
+  "description": "Simple node typescript app",
   "repository": {
     "type": "git",
     "url": "https://github.com/liagr/node_ts_chat"
   },
   "author": "liagr",
   "scripts": {
-    "start": "node dist/index.js",
+    "start": "nodemon dist/index.js",
     "watch": "gulp watch",
     "build": "gulp scripts",
     "tslint": "tslint -c tslint.json -p tsconfig.json -e node_modules/**/*.ts"
@@ -55,7 +55,6 @@
     "gulp": "^3.9.1",
     "gulp-typescript": "^3.2.4",
     "jest": "^22.2.0",
-    "nodemon": "^1.14.12",
     "shelljs": "^0.8.1",
     "supertest": "^3.0.0",
     "ts-jest": "^22.0.3",
